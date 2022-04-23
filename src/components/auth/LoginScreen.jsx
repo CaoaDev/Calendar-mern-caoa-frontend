@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { startLogin } from '../../actions/auth';
 import { useForm } from '../../hooks/useForm';
+import './loginregis.css';
 
 
 export const LoginScreen = () => {
@@ -26,7 +27,7 @@ export const LoginScreen = () => {
                 <div className="col-md login-form-1 animate__animated animate__fadeInUp">
                     <h3>Ingreso</h3>
                     <form onSubmit={ handleLogin }>
-                        <div className="form-group">
+                        <div className="form-group animate__animated animate__backInLeft">
                             <input 
                                 type="text"
                                 className="form-control"
@@ -36,7 +37,7 @@ export const LoginScreen = () => {
                                 onChange={ handleLoginInputChange }
                             />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group animate__animated animate__backInRight">
                             <input
                                 type="password"
                                 className="form-control"
@@ -49,12 +50,12 @@ export const LoginScreen = () => {
                         <div className="form-group">
                             <input 
                                 type="submit"
-                                className="btnSubmit"
+                                className="btnSubmit animate__animated animate__bounceInUp"
                                 value="Login" 
                             />
                             <Link 
                                 type="submit"
-                                className="btnSubmit"
+                                className="btnSubmit animate__animated animate__bounceInUp"
                                 to="/regis" 
                             >   
                                <center>Registrarse</center> 

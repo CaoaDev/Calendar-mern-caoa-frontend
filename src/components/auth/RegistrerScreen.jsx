@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import { startRegistrer } from '../../actions/auth';
 import { useForm } from '../../hooks/useForm';
+import './loginregis.css';
 
 
 export const RegisterScreen = () => {
@@ -43,7 +44,7 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input
                         type="text"
-                        className="form-control"
+                        className="form-control animate__animated animate__rotateInDownLeft"
                         placeholder="Nombre"
                         name="rName"
                         value={ rName }
@@ -53,7 +54,7 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input
                         type="text"
-                        className="form-control"
+                        className="form-control animate__animated animate__fadeInTopLeft"
                         placeholder="Avatar"
                         name='rAvatar'
                         value={ rAvatar }
@@ -63,7 +64,7 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input
                         type="email"
-                        className="form-control"
+                        className="form-control animate__animated animate__fadeInTopRight"
                         placeholder="Correo"
                         name='rEmail'
                         value={ rEmail }
@@ -73,7 +74,7 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input
                         type="password"
-                        className="form-control"
+                        className="form-control animate__animated animate__fadeInBottomLeft"
                         placeholder="Contraseña"
                         name='rPassword1'
                         value={ rPassword1 }
@@ -84,7 +85,7 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input
                         type="password"
-                        className="form-control"
+                        className="form-control animate__animated animate__fadeInBottomRight"
                         placeholder="Repita la contraseña"
                         name='rPassword2'
                         value={ rPassword2 }
@@ -95,16 +96,16 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input 
                         type="submit" 
-                        className="btnSubmit" 
+                        className="btnSubmit animate__animated animate__bounceInUp" 
                         value="Crear cuenta" 
                         />
-                <Link 
-                    type="submit"
-                    className="btnSubmit"
-                    to="/login" 
-                >   
-                <center>Login</center> 
-                </Link>
+                    <Link 
+                        type="submit"
+                        className="btnSubmit animate__animated animate__bounceInUp"
+                        to="/login" 
+                        >   
+                    <center>Login</center> 
+                    </Link>
                 </div>
             </form>
             </div>

@@ -9,7 +9,7 @@ export const AddNewFab = () => {
     };
   return (
     <button
-        className='btn btn-primary fab'
+        className='btn btn-primary fab animate__animated animate__fadeInRight'
         onClick={ handleClickNew }
     >
         <i className='fas fa-plus'></i>

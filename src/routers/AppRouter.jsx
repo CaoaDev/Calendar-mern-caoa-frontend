@@ -23,7 +23,7 @@ export const AppRouter = () => {
 
   return (
     <BrowserRouter>
-        <div className='calendar'>
+        <div className='calendar animate__animated animate__fadeIn'>
             <Routes>
                 <Route path='/login' element={
                         <PublicRoute isValid={ !!uid }>

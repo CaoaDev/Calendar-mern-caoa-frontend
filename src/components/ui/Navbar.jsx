@@ -10,7 +10,7 @@ export const Navbar = () => {
   } 
 
   return (
-    <div className='navbar navbar-dark bg-dark mb-4'>
+    <div className='navbar navbar-dark bg-dark mb-4 animate__animated animate__fadeInDown'>
         <span className='navbar-brand'>
           { avatar }
         </span>

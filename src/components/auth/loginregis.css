@@ -1,0 +1,82 @@
+.login-container, .regis-container{
+    border-radius: 15px;
+}
+.login-form-1, .login-form-2{
+    height: 100%;
+    background-color: #838383;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+    width: 35vw;
+}
+.login-form-1 h3{
+    text-align: center;
+    color:whitesmoke;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit{   
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit:hover, .login-form-2 .btnSubmit:hover{
+    background-color: #5fcfcf;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff;
+}
+.login-form-1 .btnSubmit, .login-form-2 .btnSubmit{
+    text-decoration: none;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.calendar{
+    width: 100vw;
+    height: 100vh;
+}
+.rbc-btn-group:hover{
+    background-color: #5fcfcf;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff;
+}
+.btn-primary{
+    background-color: #5fa8f7;
+}
+.btn-primary:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0px 0px 1px 1px #fff;
+    color: #fff;
+}
+.evento:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0px 0px 1px 1px #fff;
+    color: #fff;
+}
+@media (min-width: 280px) and (max-width: 767px) {
+    .login-form-1, .login-form-2{
+        width: 65vw;
+        height: 100%;
+    }
+    .login-form-1 .btnSubmit, .login-form-2 .btnSubmit{
+        font-size: 10px;
+    }
+}
