@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^14.0.4",
+    "moment": "^2.29.2",
+    "react": "^18.0.0-rc.3",
+    "react-big-calendar": "^0.40.0",
+    "react-datetime-picker": "^3.5.0",
+    "react-dom": "^18.0.0-rc.3",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "6",
     "react-scripts": "5.0.0",
+    "redux-thunk": "^2.4.1",
+    "sweetalert2": "^11.4.8",
+    "update-check": "^1.5.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -34,5 +43,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "@mui/styled-engine-sc": "^5.5.2",
+    "@mui/styles": "^5.5.3",
+    "@mui/system": "^5.5.3",
+    "@mui/x-data-grid": "^5.7.0",
+    "@testing-library/dom": "^8.12.0",
+    "@testing-library/react-hooks": "^7.0.2",
+    "react-test-render": "^1.1.2"
   }
 }
