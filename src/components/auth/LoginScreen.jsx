@@ -24,7 +24,7 @@ export const LoginScreen = () => {
         <div className="login-container">
             <div className="row m-0">
                 <div className="col-md login-form-1 animate__animated animate__pulse">
-                    <h2>Ingresar</h2>
+                    <h2 className='animate__animated animate__rollIn'>Ingresar</h2>
                     <form onSubmit={ handleLogin }>
                         <div className="form-group animate__animated animate__backInLeft">
                             <input 

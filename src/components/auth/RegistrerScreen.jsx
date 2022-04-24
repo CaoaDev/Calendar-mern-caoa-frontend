@@ -35,7 +35,7 @@ export const RegisterScreen = () => {
     return (
         <div className="regis-container">
             <div className="col-md login-form-2 animate__animated animate__pulse">
-            <h2>Registro</h2>
+            <h2 className='animate__animated animate__rollIn'>Registro</h2>
             <form onSubmit={ handleRegistrer }>
                 <div className="form-group">
                     <input
