@@ -171,13 +171,18 @@ html, body {
     color: #5fcfcf;
     transition: all .3s ease;
 }
+.rbc-toolbar{
+    color: green;
+}
 .rbc-toolbar:hover{
     color: brown;
     transition: all .3s ease;
 }
- strong{
+strong:hover{
     color: greenyellow;
     transition: all .3s ease;
+    font-size: 15px;
+
 }
 .btnSubmit{
     color: #5fcfcf;
