@@ -44,7 +44,7 @@ export const startRegistrer = ( name, avatar, email, password ) => {
                 uid: body.uid,
                 name: body.name,
                 avatar: body.avatar,
-                email: body.email
+                email: body.email,
             }))
         } else {
             Swal.fire({

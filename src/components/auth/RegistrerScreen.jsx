@@ -14,13 +14,11 @@ export const RegisterScreen = () => {
         rName: '',
         rAvatar: '',
         rEmail: '',
-        rDate: '',
         rPassword1: '',
-        rPassword2: ''
-    
+        rPassword2: ''  
     } );
     
-    const { rName, rAvatar, rEmail, rDate, rPassword1, rPassword2 } = formRegisValues;
+    const { rName, rAvatar, rEmail, rPassword1, rPassword2 } = formRegisValues;
 
     const handleRegistrer = ( e ) => {
         e.preventDefault();
@@ -30,11 +28,10 @@ export const RegisterScreen = () => {
                 text: 'Las contraseñas no coinciden',
                 icon: 'error',
                 confirmButtonText: 'Ok'
-              })
-        } else {
-            dispatch( startRegistrer( rName, rAvatar, rEmail, rDate, rPassword1 ) );
+            });
         }
-    }   
+        dispatch( startRegistrer( rName, rAvatar, rEmail, rPassword1 ) );
+    }  
 
     return (
         <div className="regis-container">
@@ -76,7 +73,7 @@ export const RegisterScreen = () => {
                         type="password"
                         className="form-control animate__animated animate__fadeInBottomLeft"
                         placeholder="Contraseña"
-                        name='rPassword1'
+                        name="rPassword1"
                         value={ rPassword1 }
                         onChange={ handleRegisInputChange }
                     />
@@ -87,7 +84,7 @@ export const RegisterScreen = () => {
                         type="password"
                         className="form-control animate__animated animate__fadeInBottomRight"
                         placeholder="Repita la contraseña"
-                        name='rPassword2'
+                        name="rPassword2"
                         value={ rPassword2 }
                         onChange={ handleRegisInputChange }
                     />

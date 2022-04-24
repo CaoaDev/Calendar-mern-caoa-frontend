@@ -15,7 +15,7 @@ export const Navbar = () => {
           { avatar }
         </span>
         <button 
-          className='btn btn-outline-danger'
+          className='btn btn-outline-danger animate__animated animate__backInRight'
           onClick={ handleLogout }
         >
           <i className='fas fa-sign-out-alt'></i>
