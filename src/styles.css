@@ -167,6 +167,18 @@ html, body {
     color: #fff;
     transition: all .3s ease;
 }
+.navbar-dark .navbar-brand:hover{
+    color: #5fcfcf;
+    transition: all .3s ease;
+}
+.rbc-toolbar:hover{
+    color: brown;
+    transition: all .3s ease;
+}
+ strong{
+    color: greenyellow;
+    transition: all .3s ease;
+}
 .btnSubmit{
     color: #5fcfcf;
     transition: all .3s ease;
