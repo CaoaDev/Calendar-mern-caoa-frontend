@@ -48,8 +48,7 @@
     text-decoration: none;
 }
 .calendar{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 }
 .rbc-btn-group:hover{
     background-color: #5fcfcf;
