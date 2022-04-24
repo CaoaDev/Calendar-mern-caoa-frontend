@@ -7,7 +7,7 @@ import { PublicRoute } from './PublicRoute';
 import { LoginScreen } from '../components/auth/LoginScreen';
 import { RegisterScreen } from '../components/auth/RegistrerScreen';
 import { CalendarScreen } from '../components/calendar/CalendarScreen';
-import './AppRouter.css';
+
 
 export const AppRouter = () => {
     const dispatch = useDispatch();

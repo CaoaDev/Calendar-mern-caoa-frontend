@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import { startRegistrer } from '../../actions/auth';
 import { useForm } from '../../hooks/useForm';
-import './loginregis.css';
 
 
 export const RegisterScreen = () => {
@@ -35,8 +34,8 @@ export const RegisterScreen = () => {
 
     return (
         <div className="regis-container">
-            <div className="col-md login-form-2 animate__animated animate__fadeInUp">
-            <h3>Registro</h3>
+            <div className="col-md login-form-2 animate__animated animate__pulse">
+            <h2>Registro</h2>
             <form onSubmit={ handleRegistrer }>
                 <div className="form-group">
                     <input
@@ -93,12 +92,12 @@ export const RegisterScreen = () => {
                 <div className="form-group">
                     <input 
                         type="submit" 
-                        className="btnSubmit animate__animated animate__bounceInUp" 
+                        className="btnSubmit animate__animated animate__fadeInBottomLeft" 
                         value="Crear cuenta" 
                         />
                     <Link 
                         type="submit"
-                        className="btnSubmit animate__animated animate__bounceInUp"
+                        className="btnSubmit animate__animated animate__fadeInBottomRight"
                         to="/login" 
                         >   
                     <center>Login</center> 

@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { startLogin } from '../../actions/auth';
 import { useForm } from '../../hooks/useForm';
-import './loginregis.css';
 
 
 export const LoginScreen = () => {
@@ -24,8 +23,8 @@ export const LoginScreen = () => {
     return (
         <div className="login-container">
             <div className="row m-0">
-                <div className="col-md login-form-1 animate__animated animate__fadeInUp">
-                    <h3>Ingreso</h3>
+                <div className="col-md login-form-1 animate__animated animate__pulse">
+                    <h2>Ingresar</h2>
                     <form onSubmit={ handleLogin }>
                         <div className="form-group animate__animated animate__backInLeft">
                             <input 
@@ -50,12 +49,12 @@ export const LoginScreen = () => {
                         <div className="form-group">
                             <input 
                                 type="submit"
-                                className="btnSubmit animate__animated animate__bounceInUp"
+                                className="btnSubmit animate__animated animate__fadeInBottomLeft"
                                 value="Login" 
                             />
                             <Link 
                                 type="submit"
-                                className="btnSubmit animate__animated animate__bounceInUp"
+                                className="btnSubmit animate__animated animate__fadeInBottomRight"
                                 to="/regis" 
                             >   
                                <center>Registrarse</center> 
